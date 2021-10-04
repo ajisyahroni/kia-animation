@@ -10,12 +10,16 @@
     "src/*",
     "public/*",
     "*.json",
-    "*.js"
+    "*.js",
+    "animations/*",
+    "*.css"
   ],
   "keywords": [
     "animate on scroll",
     "scrollable element animation"
   ],
   "author": "ajisyahroni",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/ajisyahroni/kia-animation",
+  "bugs": "https://github.com/ajisyahroni/kia-animation/issues"
 }
