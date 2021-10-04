@@ -5,6 +5,7 @@ js package for animation on scroll
 js file 
 ```
 import kia from 'kia-animation'
+import 'kia-animation/kia.css'
 kia("#scrollable-element")
 ```
 
