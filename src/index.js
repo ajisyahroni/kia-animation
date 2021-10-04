@@ -22,7 +22,7 @@ function intersectObs(args) {
  * @param {String} args.rootMargin - rootMargin in 'px' or '%'. default is 20%. defines the offsets of each side of the root's bounding box. In other words, positive values reduce the root bounding box and negative values increase it.
  * @param {String} args.treshold - The threshold is a number between 0 and 1.0. 0 meaning as soon as one pixel is visible, the callback will be run. 1.0 means every pixel needs to be visible before calling the callback. default is 0.1.
  */
-export default function kia(qName, args) {
+function kia(qName, args) {
     let el = document.querySelector(qName);
 
     if (el) {
@@ -43,3 +43,5 @@ export default function kia(qName, args) {
         console.warn(`DOM ${qName} Not Found`);
     }
 }
+
+module.exports = kia
