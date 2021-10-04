@@ -1,0 +1,21 @@
+{
+  "name": "kia-animation",
+  "version": "1.0.0",
+  "private": false,
+  "description": "simple animation with intersection observer",
+  "main": "index.js",
+  "scripts": {},
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "keywords": [
+    "animate on scroll",
+    "scrollable element animation"
+  ],
+  "author": "ajisyahroni",
+  "license": "MIT"
+}
