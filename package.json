@@ -1,6 +1,6 @@
 {
   "name": "kia-animation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "simple animation with intersection observer",
   "main": "index.js",
